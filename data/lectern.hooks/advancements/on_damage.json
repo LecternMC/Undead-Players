@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "damage": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "lectern.hooks:on_damage"
+    }
+}

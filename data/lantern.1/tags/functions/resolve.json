@@ -1,0 +1,6 @@
+{
+    "values": [
+        "lectern.hooks:resolve",
+        "lectern.undead_players:resolve"
+    ]
+}

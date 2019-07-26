@@ -1,0 +1,473 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:alternatives",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 21
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "tag": "lectern.undead_players:category/21"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 22
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "item": "minecraft:diamond_helmet"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 23
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "lectern.undead_players:category/f"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 20
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "item": "minecraft:leather_helmet"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 3
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "lectern.undead_players:category/3.20"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:shield"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "lectern.undead_players:category/ef"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:alternatives",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:alternatives",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:item",
+                                                    "name": "minecraft:bow",
+                                                    "functions": [
+                                                        {
+                                                            "function": "minecraft:set_count",
+                                                            "count": 15
+                                                        }
+                                                    ],
+                                                    "conditions": [
+                                                        {
+                                                            "condition": "minecraft:match_tool",
+                                                            "predicate": {
+                                                                "item": "minecraft:diamond_leggings"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "minecraft:item",
+                                                    "name": "minecraft:bow",
+                                                    "functions": [
+                                                        {
+                                                            "function": "minecraft:set_count",
+                                                            "count": 14
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "tag": "lectern.undead_players:category/14.15"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 12
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "item": "minecraft:golden_leggings"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 13
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "lectern.undead_players:category/c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 19
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "item": "minecraft:diamond_chestplate"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 18
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "lectern.undead_players:category/18.19"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 16
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:leather_chestplate"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 17
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "lectern.undead_players:category/cd"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:alternatives",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 7
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate": {
+                                                        "item": "minecraft:diamond_sword"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:item",
+                                            "name": "minecraft:bow",
+                                            "functions": [
+                                                {
+                                                    "function": "minecraft:set_count",
+                                                    "count": 6
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "lectern.undead_players:category/6.7"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 5
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:stone_sword"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 4
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "lectern.undead_players:category/a"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:alternatives",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 10
+                                        }
+                                    ],
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:diamond_boots"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:bow",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": 11
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "lectern.undead_players:category/10.11"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:bow",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": 9
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "item": "minecraft:iron_boots"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:bow",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": 8
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:match_tool",
+                            "predicate": {
+                                "tag": "lectern.undead_players:category/base"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
